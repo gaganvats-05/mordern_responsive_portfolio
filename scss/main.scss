@@ -1,11 +1,12 @@
-@import 'config'; 
+@import "config";
+@import "menu";
 * {
   box-sizing: border-box;
 }
 body {
   @include background;
   background: $primary-color;
-  color: #fff;
+  color: $tertiary-color;
   height: 100%;
   margin: 0;
   font-family: "Seoge UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -27,7 +28,7 @@ h3 {
   }
 }
 a {
-  color: #fff;
+  color: $tertiary-color;
   text-decoration: none;
 }
 header {
