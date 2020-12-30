@@ -1,9 +1,10 @@
 $primary-color: #222831;
 $secondary-color: #00adb5;
 $tertiary-color: #eeeeee;
+$quatenary-color: #000;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$background-opacity: 0.9;
+$background-opacity: 0.8;
 $personal-image: url(../img/portrait.jpg);
 $small-personal-image: url(../img/portrait_small.jpg);
 @mixin easeOut {
